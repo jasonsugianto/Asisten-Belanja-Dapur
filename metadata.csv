@@ -1,0 +1,401 @@
+file,speaker,script_id,jenis,transcript,items,sr,durasi
+raw/spk01/001.wav,spk01,1,tambah,Tolong catat susu.,susu,48000,2.39
+raw/spk01/002.wav,spk01,2,tambah,Beli telur sama ikan.,telur|ikan,48000,2.24
+raw/spk01/003.wav,spk01,3,tambah,Catat bayam sama udang.,bayam|udang,48000,2.13
+raw/spk01/004.wav,spk01,4,tambah,Tambah roti sama sirup ke daftar belanja.,roti|sirup,48000,3.43
+raw/spk01/005.wav,spk01,5,tambah,Jangan lupa cabe sama tisu.,cabai|tisu,48000,2.65
+raw/spk01/006.wav,spk01,6,tambah,"Tolong catat susu, bayam, telur, dan roti.",susu|bayam|telur|roti,48000,3.88
+raw/spk01/007.wav,spk01,7,tambah,"Beli tomat, wortel, dan daging sapi.",tomat|wortel|daging sapi,48000,2.99
+raw/spk01/008.wav,spk01,8,tambah,"Tambahin tempe, tahu, dan kentang.",tempe|tahu|kentang,48000,2.92
+raw/spk01/009.wav,spk01,9,tambah,"Mau beli bawang merah, bawang putih, dan cabai.",bawang merah|bawang putih|cabai,48000,3.22
+raw/spk01/010.wav,spk01,10,tambah,"Catat ayam, kangkung, dan jeruk.",ayam|kangkung|jeruk,48000,2.62
+raw/spk01/011.wav,spk01,11,tambah,Besok beli beras sama minyak goreng.,beras|minyak goreng,48000,2.56
+raw/spk01/012.wav,spk01,12,tambah,Masukin gula pasir sama gula merah ke list.,gula pasir|gula merah,48000,3.37
+raw/spk01/013.wav,spk01,13,tambah,Jangan lupa kecap manis dan garam.,kecap manis|garam,48000,2.88
+raw/spk01/014.wav,spk01,14,tambah,Beli mie instan lima bungkus.,mie instan,48000,2.77
+raw/spk01/015.wav,spk01,15,tambah,Catat telur sekilo.,telur,48000,2.13
+raw/spk01/016.wav,spk01,16,tambah,Tambahin minyak goreng dua liter sama santan.,minyak goreng|santan,48000,3.29
+raw/spk01/017.wav,spk01,17,tambah,Beli bayam dua ikat dan tomat setengah kilo.,bayam|tomat,48000,3.8
+raw/spk01/018.wav,spk01,18,tambah,Jangan lupa bawang merah satu ons sama tepung beras.,bawang merah|tepung beras,48000,4.35
+raw/spk01/019.wav,spk01,19,tambah,Catat pisang satu sisir sama semangka.,pisang|semangka,48000,3.33
+raw/spk01/020.wav,spk01,20,tambah,Tambah susu tiga kotak sama apel.,susu|apel,48000,3.09
+raw/spk01/021.wav,spk01,21,tambah,"Eh, tolong catat teh celup dan bawang bombay.",teh celup|bawang bombay,48000,3.69
+raw/spk01/022.wav,spk01,22,tambah,"Oh iya, beli sabun cuci piring sama saus sambal.",sabun cuci piring|saus sambal,48000,4.25
+raw/spk01/023.wav,spk01,23,tambah,"Apa ya, tambahin tepung terigu sama mentega.",tepung terigu|mentega,48000,5.29
+raw/spk01/024.wav,spk01,24,tambah,"Hmm, catat santan, tepung beras, dan gula merah.",santan|tepung beras|gula merah,48000,5.44
+raw/spk01/025.wav,spk01,25,tambah,"Stok habis, perlu tisu, air mineral, dan kopi.",tisu|air mineral|kopi,48000,4.16
+raw/spk01/026.wav,spk01,26,tambah,"Beli daging sapi, udang, dan ikan.",daging sapi|udang|ikan,48000,3.97
+raw/spk01/027.wav,spk01,27,tambah,"Tambahin kopi, teh celup, gula pasir, dan susu.",kopi|teh celup|gula pasir|susu,48000,4.16
+raw/spk01/028.wav,spk01,28,tambah,"Catat jahe, kunyit, dan bawang bombay.",jahe|kunyit|bawang bombay,48000,2.94
+raw/spk01/029.wav,spk01,29,tambah,"Beli apel, pisang, jeruk, dan semangka.",apel|pisang|jeruk|semangka,48000,4.18
+raw/spk01/030.wav,spk01,30,tambah,"Daftar belanja hari ini susu, roti, mentega, telur, dan sabun cuci piring.",susu|roti|mentega|telur|sabun cuci piring,48000,5.57
+raw/spk01/031.wav,spk01,31,tambah,"Tolong catat sawi, brokoli, buncis, kol, dan timun.",sawi|brokoli|buncis|kol|timun,48000,5.03
+raw/spk01/032.wav,spk01,32,tambah,"Beli ayam, tahu, tempe, bawang putih, cabai, dan kecap asin.",ayam|tahu|tempe|bawang putih|cabai|kecap asin,48000,5.82
+raw/spk01/033.wav,spk01,33,tambah,"Jangan lupa saus sambal, jus jeruk, sirup, dan telur puyuh.",saus sambal|jus jeruk|sirup|telur puyuh,48000,4.01
+raw/spk01/034.wav,spk01,34,tambah,"Catat kecap manis, kecap asin, garam, kunyit, dan jahe.",kecap manis|kecap asin|garam|kunyit|jahe,48000,4.59
+raw/spk01/035.wav,spk01,35,tambah,"Tambahin wortel, kentang, tomat, bayam, dan kangkung.",wortel|kentang|tomat|bayam|kangkung,48000,4.16
+raw/spk01/036.wav,spk01,36,tambah,"Beli beras lima kilo, minyak goreng dua liter, gula pasir sekilo, dan telur sepuluh butir.",beras|minyak goreng|gula pasir|telur,48000,6.06
+raw/spk01/037.wav,spk01,37,tambah,"Mau beli bayem, sawi, sama brokoli.",bayam|sawi|brokoli,48000,3.37
+raw/spk01/038.wav,spk01,38,tambah,"Catat buncis, kol, timun, dan telur puyuh.",buncis|kol|timun|telur puyuh,48000,3.75
+raw/spk01/039.wav,spk01,39,tambah,Tambah mie instan dua dus sama tepung terigu.,mie instan|tepung terigu,48000,4.31
+raw/spk01/040.wav,spk01,40,tambah,"Beli air mineral, susu kotak, dan jus jeruk.",air mineral|susu|jus jeruk,48000,3.63
+raw/spk01/041.wav,spk01,41,centang,Susu sudah diambil.,susu,48000,1.88
+raw/spk01/042.wav,spk01,42,centang,Udah dapat telor.,telur,48000,2.09
+raw/spk01/043.wav,spk01,43,centang,Bayam masuk keranjang.,bayam,48000,2.35
+raw/spk01/044.wav,spk01,44,centang,Ceklis roti.,roti,48000,1.96
+raw/spk01/045.wav,spk01,45,centang,Centang tomat.,tomat,48000,1.75
+raw/spk01/046.wav,spk01,46,centang,Sudah ambil wortel.,wortel,48000,2.15
+raw/spk01/047.wav,spk01,47,centang,Tempe udah.,tempe,48000,1.51
+raw/spk01/048.wav,spk01,48,centang,Tahu sudah dapat.,tahu,48000,2.18
+raw/spk01/049.wav,spk01,49,centang,Cabai sudah di troli.,cabai,48000,2.01
+raw/spk01/050.wav,spk01,50,centang,"Oke, kentang beres.",kentang,48000,2.13
+raw/spk01/051.wav,spk01,51,centang,Ceklis roti sama tomat.,roti|tomat,48000,2.43
+raw/spk01/052.wav,spk01,52,centang,Susu dan telur sudah diambil.,susu|telur,48000,2.77
+raw/spk01/053.wav,spk01,53,centang,Udah dapat bayam sama wortel.,bayam|wortel,48000,2.5
+raw/spk01/054.wav,spk01,54,centang,"Centang ayam, tahu, dan tempe.",ayam|tahu|tempe,48000,2.82
+raw/spk01/055.wav,spk01,55,centang,Bawang merah masuk keranjang.,bawang merah,48000,2.73
+raw/spk01/056.wav,spk01,56,centang,Minyak goreng sudah diambil.,minyak goreng,48000,2.56
+raw/spk01/057.wav,spk01,57,centang,Gula pasir udah dapat.,gula pasir,48000,2.2
+raw/spk01/058.wav,spk01,58,centang,Beras sudah di troli.,beras,48000,2.24
+raw/spk01/059.wav,spk01,59,centang,Mie instan masuk keranjang.,mie instan,48000,2.24
+raw/spk01/060.wav,spk01,60,centang,Kecap manis sudah diambil.,kecap manis,48000,2.58
+raw/spk01/061.wav,spk01,61,centang,"Eh, telur puyuh udah dapat.",telur puyuh,48000,2.35
+raw/spk01/062.wav,spk01,62,centang,"Oh iya, bawang putih sudah diambil.",bawang putih,48000,2.45
+raw/spk01/063.wav,spk01,63,centang,"Nah, kopi sama teh celup beres.",kopi|teh celup,48000,2.79
+raw/spk01/064.wav,spk01,64,centang,"Hmm, ceklis garam.",garam,48000,2.62
+raw/spk01/065.wav,spk01,65,centang,Pisang sudah masuk keranjang.,pisang,48000,2.03
+raw/spk01/066.wav,spk01,66,centang,Kangkung dua ikat udah dapat.,kangkung,48000,2.79
+raw/spk01/067.wav,spk01,67,centang,"Sudah ambil bawang bombay, jahe, dan tepung terigu.",bawang bombay|jahe|tepung terigu,48000,3.88
+raw/spk01/068.wav,spk01,68,centang,"Gula merah, santan, dan mentega udah semua.",gula merah|santan|mentega,48000,3.31
+raw/spk01/069.wav,spk01,69,centang,"Udang, ikan, dan daging sapi sudah di troli.",udang|ikan|daging sapi,48000,3.05
+raw/spk01/070.wav,spk01,70,centang,"Centang jeruk, apel, dan semangka.",jeruk|apel|semangka,48000,2.84
+raw/spk01/071.wav,spk01,71,hapus,Hapus sawi sama brokoli.,sawi|brokoli,48000,2.62
+raw/spk01/072.wav,spk01,72,hapus,"Nggak jadi beli buncis, kol, dan timun.",buncis|kol|timun,48000,3.14
+raw/spk01/073.wav,spk01,73,hapus,Batal beli kunyit sama kecap asin.,kunyit|kecap asin,48000,2.6
+raw/spk01/074.wav,spk01,74,hapus,Hapus tepung beras dari daftar.,tepung beras,48000,2.56
+raw/spk01/075.wav,spk01,75,hapus,Gak usah beli sirup sama saus sambal.,sirup|saus sambal,48000,3.03
+raw/spk01/076.wav,spk01,76,hapus,"Eh, hapus sabun cuci piring dan tisu.",sabun cuci piring|tisu,48000,2.9
+raw/spk01/077.wav,spk01,77,hapus,Batal air mineral sama jus jeruk.,air mineral|jus jeruk,48000,2.69
+raw/spk01/078.wav,spk01,78,hapus,"Hapus susu, bawang putih, dan telur.",susu|bawang putih|telur,48000,3.03
+raw/spk01/079.wav,spk01,79,hapus,"Nggak jadi beli ayam, tahu, dan bawang merah.",ayam|tahu|bawang merah,48000,3.22
+raw/spk01/080.wav,spk01,80,hapus,"Eh, batal beli cabai.",cabai,48000,2.2
+raw/spk02/001.wav,spk02,1,tambah,Tolong catat susu.,susu,48000,2.28
+raw/spk02/002.wav,spk02,2,tambah,Beli telur sama ikan.,telur|ikan,48000,2.35
+raw/spk02/003.wav,spk02,3,tambah,Catat bayam sama udang.,bayam|udang,48000,2.2
+raw/spk02/004.wav,spk02,4,tambah,Tambah roti sama sirup ke daftar belanja.,roti|sirup,48000,3.56
+raw/spk02/005.wav,spk02,5,tambah,Jangan lupa cabe sama tisu.,cabai|tisu,48000,2.88
+raw/spk02/006.wav,spk02,6,tambah,"Tolong catat susu, bayam, telur, dan roti.",susu|bayam|telur|roti,48000,3.78
+raw/spk02/007.wav,spk02,7,tambah,"Beli tomat, wortel, dan daging sapi.",tomat|wortel|daging sapi,48000,3.65
+raw/spk02/008.wav,spk02,8,tambah,"Tambahin tempe, tahu, dan kentang.",tempe|tahu|kentang,48000,3.05
+raw/spk02/009.wav,spk02,9,tambah,"Mau beli bawang merah, bawang putih, dan cabai.",bawang merah|bawang putih|cabai,48000,4.5
+raw/spk02/010.wav,spk02,10,tambah,"Catat ayam, kangkung, dan jeruk.",ayam|kangkung|jeruk,48000,3.29
+raw/spk02/011.wav,spk02,11,tambah,Besok beli beras sama minyak goreng.,beras|minyak goreng,48000,3.03
+raw/spk02/012.wav,spk02,12,tambah,Masukin gula pasir sama gula merah ke list.,gula pasir|gula merah,48000,3.82
+raw/spk02/013.wav,spk02,13,tambah,Jangan lupa kecap manis dan garam.,kecap manis|garam,48000,2.75
+raw/spk02/014.wav,spk02,14,tambah,Beli mie instan lima bungkus.,mie instan,48000,2.6
+raw/spk02/015.wav,spk02,15,tambah,Catat telur sekilo.,telur,48000,1.83
+raw/spk02/016.wav,spk02,16,tambah,Tambahin minyak goreng dua liter sama santan.,minyak goreng|santan,48000,3.46
+raw/spk02/017.wav,spk02,17,tambah,Beli bayam dua ikat dan tomat setengah kilo.,bayam|tomat,48000,3.63
+raw/spk02/018.wav,spk02,18,tambah,Jangan lupa bawang merah satu ons sama tepung beras.,bawang merah|tepung beras,48000,4.48
+raw/spk02/019.wav,spk02,19,tambah,Catat pisang satu sisir sama semangka.,pisang|semangka,48000,3.11
+raw/spk02/020.wav,spk02,20,tambah,Tambah susu tiga kotak sama apel.,susu|apel,48000,3.22
+raw/spk02/021.wav,spk02,21,tambah,"Eh, tolong catat teh celup dan bawang bombay.",teh celup|bawang bombay,48000,4.48
+raw/spk02/022.wav,spk02,22,tambah,"Oh iya, beli sabun cuci piring sama saus sambal.",sabun cuci piring|saus sambal,48000,4.29
+raw/spk02/023.wav,spk02,23,tambah,"Apa ya, tambahin tepung terigu sama mentega.",tepung terigu|mentega,48000,3.84
+raw/spk02/024.wav,spk02,24,tambah,"Hmm, catat santan, tepung beras, dan gula merah.",santan|tepung beras|gula merah,48000,4.16
+raw/spk02/025.wav,spk02,25,tambah,"Stok habis, perlu tisu, air mineral, dan kopi.",tisu|air mineral|kopi,48000,4.37
+raw/spk02/026.wav,spk02,26,tambah,"Beli daging sapi, udang, dan ikan.",daging sapi|udang|ikan,48000,3.41
+raw/spk02/027.wav,spk02,27,tambah,"Tambahin kopi, teh celup, gula pasir, dan susu.",kopi|teh celup|gula pasir|susu,48000,4.27
+raw/spk02/028.wav,spk02,28,tambah,"Catat jahe, kunyit, dan bawang bombay.",jahe|kunyit|bawang bombay,48000,3.8
+raw/spk02/029.wav,spk02,29,tambah,"Beli apel, pisang, jeruk, dan semangka.",apel|pisang|jeruk|semangka,48000,3.84
+raw/spk02/030.wav,spk02,30,tambah,"Daftar belanja hari ini susu, roti, mentega, telur, dan sabun cuci piring.",susu|roti|mentega|telur|sabun cuci piring,48000,5.74
+raw/spk02/031.wav,spk02,31,tambah,"Tolong catat sawi, brokoli, buncis, kol, dan timun.",sawi|brokoli|buncis|kol|timun,48000,4.8
+raw/spk02/032.wav,spk02,32,tambah,"Beli ayam, tahu, tempe, bawang putih, cabai, dan kecap asin.",ayam|tahu|tempe|bawang putih|cabai|kecap asin,48000,5.74
+raw/spk02/033.wav,spk02,33,tambah,"Jangan lupa saus sambal, jus jeruk, sirup, dan telur puyuh.",saus sambal|jus jeruk|sirup|telur puyuh,48000,5.12
+raw/spk02/034.wav,spk02,34,tambah,"Catat kecap manis, kecap asin, garam, kunyit, dan jahe.",kecap manis|kecap asin|garam|kunyit|jahe,48000,5.46
+raw/spk02/035.wav,spk02,35,tambah,"Tambahin wortel, kentang, tomat, bayam, dan kangkung.",wortel|kentang|tomat|bayam|kangkung,48000,4.95
+raw/spk02/036.wav,spk02,36,tambah,"Beli beras lima kilo, minyak goreng dua liter, gula pasir sekilo, dan telur sepuluh butir.",beras|minyak goreng|gula pasir|telur,48000,7.04
+raw/spk02/037.wav,spk02,37,tambah,"Mau beli bayem, sawi, sama brokoli.",bayam|sawi|brokoli,48000,3.03
+raw/spk02/038.wav,spk02,38,tambah,"Catat buncis, kol, timun, dan telur puyuh.",buncis|kol|timun|telur puyuh,48000,4.12
+raw/spk02/039.wav,spk02,39,tambah,Tambah mie instan dua dus sama tepung terigu.,mie instan|tepung terigu,48000,3.39
+raw/spk02/040.wav,spk02,40,tambah,"Beli air mineral, susu kotak, dan jus jeruk.",air mineral|susu|jus jeruk,48000,3.67
+raw/spk02/041.wav,spk02,41,centang,Susu sudah diambil.,susu,48000,1.66
+raw/spk02/042.wav,spk02,42,centang,Udah dapat telor.,telur,48000,1.71
+raw/spk02/043.wav,spk02,43,centang,Bayam masuk keranjang.,bayam,48000,1.66
+raw/spk02/044.wav,spk02,44,centang,Ceklis roti.,roti,48000,1.71
+raw/spk02/045.wav,spk02,45,centang,Centang tomat.,tomat,48000,1.94
+raw/spk02/046.wav,spk02,46,centang,Sudah ambil wortel.,wortel,48000,2.2
+raw/spk02/047.wav,spk02,47,centang,Tempe udah.,tempe,48000,1.51
+raw/spk02/048.wav,spk02,48,centang,Tahu sudah dapat.,tahu,48000,1.54
+raw/spk02/049.wav,spk02,49,centang,Cabai sudah di troli.,cabai,48000,1.77
+raw/spk02/050.wav,spk02,50,centang,"Oke, kentang beres.",kentang,48000,2.41
+raw/spk02/051.wav,spk02,51,centang,Ceklis roti sama tomat.,roti|tomat,48000,2.15
+raw/spk02/052.wav,spk02,52,centang,Susu dan telur sudah diambil.,susu|telur,48000,2.18
+raw/spk02/053.wav,spk02,53,centang,Udah dapat bayam sama wortel.,bayam|wortel,48000,3.03
+raw/spk02/054.wav,spk02,54,centang,"Centang ayam, tahu, dan tempe.",ayam|tahu|tempe,48000,2.94
+raw/spk02/055.wav,spk02,55,centang,Bawang merah masuk keranjang.,bawang merah,48000,2.03
+raw/spk02/056.wav,spk02,56,centang,Minyak goreng sudah diambil.,minyak goreng,48000,2.35
+raw/spk02/057.wav,spk02,57,centang,Gula pasir udah dapat.,gula pasir,48000,1.73
+raw/spk02/058.wav,spk02,58,centang,Beras sudah di troli.,beras,48000,1.73
+raw/spk02/059.wav,spk02,59,centang,Mie instan masuk keranjang.,mie instan,48000,2.41
+raw/spk02/060.wav,spk02,60,centang,Kecap manis sudah diambil.,kecap manis,48000,2.03
+raw/spk02/061.wav,spk02,61,centang,"Eh, telur puyuh udah dapat.",telur puyuh,48000,2.24
+raw/spk02/062.wav,spk02,62,centang,"Oh iya, bawang putih sudah diambil.",bawang putih,48000,2.88
+raw/spk02/063.wav,spk02,63,centang,"Nah, kopi sama teh celup beres.",kopi|teh celup,48000,3.14
+raw/spk02/064.wav,spk02,64,centang,"Hmm, ceklis garam.",garam,48000,2.24
+raw/spk02/065.wav,spk02,65,centang,Pisang sudah masuk keranjang.,pisang,48000,2.35
+raw/spk02/066.wav,spk02,66,centang,Kangkung dua ikat udah dapat.,kangkung,48000,2.71
+raw/spk02/067.wav,spk02,67,centang,"Sudah ambil bawang bombay, jahe, dan tepung terigu.",bawang bombay|jahe|tepung terigu,48000,4.12
+raw/spk02/068.wav,spk02,68,centang,"Gula merah, santan, dan mentega udah semua.",gula merah|santan|mentega,48000,3.61
+raw/spk02/069.wav,spk02,69,centang,"Udang, ikan, dan daging sapi sudah di troli.",udang|ikan|daging sapi,48000,3.86
+raw/spk02/070.wav,spk02,70,centang,"Centang jeruk, apel, dan semangka.",jeruk|apel|semangka,48000,2.94
+raw/spk02/071.wav,spk02,71,hapus,Hapus sawi sama brokoli.,sawi|brokoli,48000,2.18
+raw/spk02/072.wav,spk02,72,hapus,"Nggak jadi beli buncis, kol, dan timun.",buncis|kol|timun,48000,3.2
+raw/spk02/073.wav,spk02,73,hapus,Batal beli kunyit sama kecap asin.,kunyit|kecap asin,48000,3.2
+raw/spk02/074.wav,spk02,74,hapus,Hapus tepung beras dari daftar.,tepung beras,48000,2.15
+raw/spk02/075.wav,spk02,75,hapus,Gak usah beli sirup sama saus sambal.,sirup|saus sambal,48000,3.11
+raw/spk02/076.wav,spk02,76,hapus,"Eh, hapus sabun cuci piring dan tisu.",sabun cuci piring|tisu,48000,3.8
+raw/spk02/077.wav,spk02,77,hapus,Batal air mineral sama jus jeruk.,air mineral|jus jeruk,48000,2.56
+raw/spk02/078.wav,spk02,78,hapus,"Hapus susu, bawang putih, dan telur.",susu|bawang putih|telur,48000,3.01
+raw/spk02/079.wav,spk02,79,hapus,"Nggak jadi beli ayam, tahu, dan bawang merah.",ayam|tahu|bawang merah,48000,3.67
+raw/spk02/080.wav,spk02,80,hapus,"Eh, batal beli cabai.",cabai,48000,2.56
+raw/spk03/001.wav,spk03,1,tambah,Tolong catat susu.,susu,44100,3.36
+raw/spk03/002.wav,spk03,2,tambah,Beli telur sama ikan.,telur|ikan,44100,3.28
+raw/spk03/003.wav,spk03,3,tambah,Catat bayam sama udang.,bayam|udang,44100,3.52
+raw/spk03/004.wav,spk03,4,tambah,Tambah roti sama sirup ke daftar belanja.,roti|sirup,44100,3.92
+raw/spk03/005.wav,spk03,5,tambah,Jangan lupa cabe sama tisu.,cabai|tisu,44100,3.2
+raw/spk03/006.wav,spk03,6,tambah,"Tolong catat susu, bayam, telur, dan roti.",susu|bayam|telur|roti,44100,4.24
+raw/spk03/007.wav,spk03,7,tambah,"Beli tomat, wortel, dan daging sapi.",tomat|wortel|daging sapi,44100,3.76
+raw/spk03/008.wav,spk03,8,tambah,"Tambahin tempe, tahu, dan kentang.",tempe|tahu|kentang,44100,3.52
+raw/spk03/009.wav,spk03,9,tambah,"Mau beli bawang merah, bawang putih, dan cabai.",bawang merah|bawang putih|cabai,44100,4.0
+raw/spk03/010.wav,spk03,10,tambah,"Catat ayam, kangkung, dan jeruk.",ayam|kangkung|jeruk,44100,3.52
+raw/spk03/011.wav,spk03,11,tambah,Besok beli beras sama minyak goreng.,beras|minyak goreng,44100,3.44
+raw/spk03/012.wav,spk03,12,tambah,Masukin gula pasir sama gula merah ke list.,gula pasir|gula merah,44100,4.32
+raw/spk03/013.wav,spk03,13,tambah,Jangan lupa kecap manis dan garam.,kecap manis|garam,44100,2.96
+raw/spk03/014.wav,spk03,14,tambah,Beli mie instan lima bungkus.,mie instan,44100,2.88
+raw/spk03/015.wav,spk03,15,tambah,Catat telur sekilo.,telur,44100,2.56
+raw/spk03/016.wav,spk03,16,tambah,Tambahin minyak goreng dua liter sama santan.,minyak goreng|santan,44100,4.0
+raw/spk03/017.wav,spk03,17,tambah,Beli bayam dua ikat dan tomat setengah kilo.,bayam|tomat,44100,4.08
+raw/spk03/018.wav,spk03,18,tambah,Jangan lupa bawang merah satu ons sama tepung beras.,bawang merah|tepung beras,44100,4.56
+raw/spk03/019.wav,spk03,19,tambah,Catat pisang satu sisir sama semangka.,pisang|semangka,44100,3.44
+raw/spk03/020.wav,spk03,20,tambah,Tambah susu tiga kotak sama apel.,susu|apel,44100,3.52
+raw/spk03/021.wav,spk03,21,tambah,"Eh, tolong catat teh celup dan bawang bombay.",teh celup|bawang bombay,44100,4.48
+raw/spk03/022.wav,spk03,22,tambah,"Oh iya, beli sabun cuci piring sama saus sambal.",sabun cuci piring|saus sambal,44100,4.72
+raw/spk03/023.wav,spk03,23,tambah,"Apa ya, tambahin tepung terigu sama mentega.",tepung terigu|mentega,44100,4.8
+raw/spk03/024.wav,spk03,24,tambah,"Hmm, catat santan, tepung beras, dan gula merah.",santan|tepung beras|gula merah,44100,5.52
+raw/spk03/025.wav,spk03,25,tambah,"Stok habis, perlu tisu, air mineral, dan kopi.",tisu|air mineral|kopi,44100,4.72
+raw/spk03/026.wav,spk03,26,tambah,"Beli daging sapi, udang, dan ikan.",daging sapi|udang|ikan,44100,3.84
+raw/spk03/027.wav,spk03,27,tambah,"Tambahin kopi, teh celup, gula pasir, dan susu.",kopi|teh celup|gula pasir|susu,44100,4.72
+raw/spk03/028.wav,spk03,28,tambah,"Catat jahe, kunyit, dan bawang bombay.",jahe|kunyit|bawang bombay,44100,3.76
+raw/spk03/029.wav,spk03,29,tambah,"Beli apel, pisang, jeruk, dan semangka.",apel|pisang|jeruk|semangka,44100,4.4
+raw/spk03/030.wav,spk03,30,tambah,"Daftar belanja hari ini susu, roti, mentega, telur, dan sabun cuci piring.",susu|roti|mentega|telur|sabun cuci piring,44100,7.28
+raw/spk03/031.wav,spk03,31,tambah,"Tolong catat sawi, brokoli, buncis, kol, dan timun.",sawi|brokoli|buncis|kol|timun,44100,6.24
+raw/spk03/032.wav,spk03,32,tambah,"Beli ayam, tahu, tempe, bawang putih, cabai, dan kecap asin.",ayam|tahu|tempe|bawang putih|cabai|kecap asin,44100,6.32
+raw/spk03/033.wav,spk03,33,tambah,"Jangan lupa saus sambal, jus jeruk, sirup, dan telur puyuh.",saus sambal|jus jeruk|sirup|telur puyuh,44100,4.96
+raw/spk03/034.wav,spk03,34,tambah,"Catat kecap manis, kecap asin, garam, kunyit, dan jahe.",kecap manis|kecap asin|garam|kunyit|jahe,44100,5.76
+raw/spk03/035.wav,spk03,35,tambah,"Tambahin wortel, kentang, tomat, bayam, dan kangkung.",wortel|kentang|tomat|bayam|kangkung,44100,5.84
+raw/spk03/036.wav,spk03,36,tambah,"Beli beras lima kilo, minyak goreng dua liter, gula pasir sekilo, dan telur sepuluh butir.",beras|minyak goreng|gula pasir|telur,44100,7.68
+raw/spk03/037.wav,spk03,37,tambah,"Mau beli bayem, sawi, sama brokoli.",bayam|sawi|brokoli,44100,4.24
+raw/spk03/038.wav,spk03,38,tambah,"Catat buncis, kol, timun, dan telur puyuh.",buncis|kol|timun|telur puyuh,44100,5.28
+raw/spk03/039.wav,spk03,39,tambah,Tambah mie instan dua dus sama tepung terigu.,mie instan|tepung terigu,44100,4.48
+raw/spk03/040.wav,spk03,40,tambah,"Beli air mineral, susu kotak, dan jus jeruk.",air mineral|susu|jus jeruk,44100,4.16
+raw/spk03/041.wav,spk03,41,centang,Susu sudah diambil.,susu,44100,2.96
+raw/spk03/042.wav,spk03,42,centang,Udah dapat telor.,telur,44100,2.88
+raw/spk03/043.wav,spk03,43,centang,Bayam masuk keranjang.,bayam,44100,2.72
+raw/spk03/044.wav,spk03,44,centang,Ceklis roti.,roti,44100,2.8
+raw/spk03/045.wav,spk03,45,centang,Centang tomat.,tomat,44100,2.48
+raw/spk03/046.wav,spk03,46,centang,Sudah ambil wortel.,wortel,44100,2.56
+raw/spk03/047.wav,spk03,47,centang,Tempe udah.,tempe,44100,2.64
+raw/spk03/048.wav,spk03,48,centang,Tahu sudah dapat.,tahu,44100,2.8
+raw/spk03/049.wav,spk03,49,centang,Cabai sudah di troli.,cabai,44100,3.12
+raw/spk03/050.wav,spk03,50,centang,"Oke, kentang beres.",kentang,44100,3.04
+raw/spk03/051.wav,spk03,51,centang,Ceklis roti sama tomat.,roti|tomat,44100,3.12
+raw/spk03/052.wav,spk03,52,centang,Susu dan telur sudah diambil.,susu|telur,44100,3.36
+raw/spk03/053.wav,spk03,53,centang,Udah dapat bayam sama wortel.,bayam|wortel,44100,3.28
+raw/spk03/054.wav,spk03,54,centang,"Centang ayam, tahu, dan tempe.",ayam|tahu|tempe,44100,4.0
+raw/spk03/055.wav,spk03,55,centang,Bawang merah masuk keranjang.,bawang merah,44100,3.04
+raw/spk03/056.wav,spk03,56,centang,Minyak goreng sudah diambil.,minyak goreng,44100,2.96
+raw/spk03/057.wav,spk03,57,centang,Gula pasir udah dapat.,gula pasir,44100,3.2
+raw/spk03/058.wav,spk03,58,centang,Beras sudah di troli.,beras,44100,2.72
+raw/spk03/059.wav,spk03,59,centang,Mie instan masuk keranjang.,mie instan,44100,3.12
+raw/spk03/060.wav,spk03,60,centang,Kecap manis sudah diambil.,kecap manis,44100,2.8
+raw/spk03/061.wav,spk03,61,centang,"Eh, telur puyuh udah dapat.",telur puyuh,44100,3.04
+raw/spk03/062.wav,spk03,62,centang,"Oh iya, bawang putih sudah diambil.",bawang putih,44100,3.28
+raw/spk03/063.wav,spk03,63,centang,"Nah, kopi sama teh celup beres.",kopi|teh celup,44100,3.2
+raw/spk03/064.wav,spk03,64,centang,"Hmm, ceklis garam.",garam,44100,3.04
+raw/spk03/065.wav,spk03,65,centang,Pisang sudah masuk keranjang.,pisang,44100,2.88
+raw/spk03/066.wav,spk03,66,centang,Kangkung dua ikat udah dapat.,kangkung,44100,2.72
+raw/spk03/067.wav,spk03,67,centang,"Sudah ambil bawang bombay, jahe, dan tepung terigu.",bawang bombay|jahe|tepung terigu,44100,4.4
+raw/spk03/068.wav,spk03,68,centang,"Gula merah, santan, dan mentega udah semua.",gula merah|santan|mentega,44100,4.08
+raw/spk03/069.wav,spk03,69,centang,"Udang, ikan, dan daging sapi sudah di troli.",udang|ikan|daging sapi,44100,4.0
+raw/spk03/070.wav,spk03,70,centang,"Centang jeruk, apel, dan semangka.",jeruk|apel|semangka,44100,3.6
+raw/spk03/071.wav,spk03,71,hapus,Hapus sawi sama brokoli.,sawi|brokoli,44100,2.72
+raw/spk03/072.wav,spk03,72,hapus,"Nggak jadi beli buncis, kol, dan timun.",buncis|kol|timun,44100,3.2
+raw/spk03/073.wav,spk03,73,hapus,Batal beli kunyit sama kecap asin.,kunyit|kecap asin,44100,3.92
+raw/spk03/074.wav,spk03,74,hapus,Hapus tepung beras dari daftar.,tepung beras,44100,2.8
+raw/spk03/075.wav,spk03,75,hapus,Gak usah beli sirup sama saus sambal.,sirup|saus sambal,44100,3.36
+raw/spk03/076.wav,spk03,76,hapus,"Eh, hapus sabun cuci piring dan tisu.",sabun cuci piring|tisu,44100,3.52
+raw/spk03/077.wav,spk03,77,hapus,Batal air mineral sama jus jeruk.,air mineral|jus jeruk,44100,3.28
+raw/spk03/078.wav,spk03,78,hapus,"Hapus susu, bawang putih, dan telur.",susu|bawang putih|telur,44100,3.52
+raw/spk03/079.wav,spk03,79,hapus,"Nggak jadi beli ayam, tahu, dan bawang merah.",ayam|tahu|bawang merah,44100,3.92
+raw/spk03/080.wav,spk03,80,hapus,"Eh, batal beli cabai.",cabai,44100,2.88
+raw/spk04/001.wav,spk04,1,tambah,Tolong catat susu.,susu,48000,2.7
+raw/spk04/002.wav,spk04,2,tambah,Beli telur sama ikan.,telur|ikan,48000,2.96
+raw/spk04/003.wav,spk04,3,tambah,Catat bayam sama udang.,bayam|udang,48000,3.15
+raw/spk04/004.wav,spk04,4,tambah,Tambah roti sama sirup ke daftar belanja.,roti|sirup,48000,3.86
+raw/spk04/005.wav,spk04,5,tambah,Jangan lupa cabe sama tisu.,cabai|tisu,48000,3.56
+raw/spk04/006.wav,spk04,6,tambah,"Tolong catat susu, bayam, telur, dan roti.",susu|bayam|telur|roti,48000,4.04
+raw/spk04/007.wav,spk04,7,tambah,"Beli tomat, wortel, dan daging sapi.",tomat|wortel|daging sapi,48000,3.8
+raw/spk04/008.wav,spk04,8,tambah,"Tambahin tempe, tahu, dan kentang.",tempe|tahu|kentang,48000,3.68
+raw/spk04/009.wav,spk04,9,tambah,"Mau beli bawang merah, bawang putih, dan cabai.",bawang merah|bawang putih|cabai,48000,4.24
+raw/spk04/010.wav,spk04,10,tambah,"Catat ayam, kangkung, dan jeruk.",ayam|kangkung|jeruk,48000,3.86
+raw/spk04/011.wav,spk04,11,tambah,Besok beli beras sama minyak goreng.,beras|minyak goreng,48000,3.73
+raw/spk04/012.wav,spk04,12,tambah,Masukin gula pasir sama gula merah ke list.,gula pasir|gula merah,48000,4.11
+raw/spk04/013.wav,spk04,13,tambah,Jangan lupa kecap manis dan garam.,kecap manis|garam,48000,3.52
+raw/spk04/014.wav,spk04,14,tambah,Beli mie instan lima bungkus.,mie instan,48000,3.36
+raw/spk04/015.wav,spk04,15,tambah,Catat telur sekilo.,telur,48000,2.96
+raw/spk04/016.wav,spk04,16,tambah,Tambahin minyak goreng dua liter sama santan.,minyak goreng|santan,48000,3.9
+raw/spk04/017.wav,spk04,17,tambah,Beli bayam dua ikat dan tomat setengah kilo.,bayam|tomat,48000,3.84
+raw/spk04/018.wav,spk04,18,tambah,Jangan lupa bawang merah satu ons sama tepung beras.,bawang merah|tepung beras,48000,4.44
+raw/spk04/019.wav,spk04,19,tambah,Catat pisang satu sisir sama semangka.,pisang|semangka,48000,4.18
+raw/spk04/020.wav,spk04,20,tambah,Tambah susu tiga kotak sama apel.,susu|apel,48000,3.74
+raw/spk04/021.wav,spk04,21,tambah,"Eh, tolong catat teh celup dan bawang bombay.",teh celup|bawang bombay,48000,4.26
+raw/spk04/022.wav,spk04,22,tambah,"Oh iya, beli sabun cuci piring sama saus sambal.",sabun cuci piring|saus sambal,48000,4.98
+raw/spk04/023.wav,spk04,23,tambah,"Apa ya, tambahin tepung terigu sama mentega.",tepung terigu|mentega,48000,5.17
+raw/spk04/024.wav,spk04,24,tambah,"Hmm, catat santan, tepung beras, dan gula merah.",santan|tepung beras|gula merah,48000,4.62
+raw/spk04/025.wav,spk04,25,tambah,"Stok habis, perlu tisu, air mineral, dan kopi.",tisu|air mineral|kopi,48000,4.7
+raw/spk04/026.wav,spk04,26,tambah,"Beli daging sapi, udang, dan ikan.",daging sapi|udang|ikan,48000,3.84
+raw/spk04/027.wav,spk04,27,tambah,"Tambahin kopi, teh celup, gula pasir, dan susu.",kopi|teh celup|gula pasir|susu,48000,4.54
+raw/spk04/028.wav,spk04,28,tambah,"Catat jahe, kunyit, dan bawang bombay.",jahe|kunyit|bawang bombay,48000,4.2
+raw/spk04/029.wav,spk04,29,tambah,"Beli apel, pisang, jeruk, dan semangka.",apel|pisang|jeruk|semangka,48000,4.3
+raw/spk04/030.wav,spk04,30,tambah,"Daftar belanja hari ini susu, roti, mentega, telur, dan sabun cuci piring.",susu|roti|mentega|telur|sabun cuci piring,48000,6.99
+raw/spk04/031.wav,spk04,31,tambah,"Tolong catat sawi, brokoli, buncis, kol, dan timun.",sawi|brokoli|buncis|kol|timun,48000,5.0
+raw/spk04/032.wav,spk04,32,tambah,"Beli ayam, tahu, tempe, bawang putih, cabai, dan kecap asin.",ayam|tahu|tempe|bawang putih|cabai|kecap asin,48000,6.0
+raw/spk04/033.wav,spk04,33,tambah,"Jangan lupa saus sambal, jus jeruk, sirup, dan telur puyuh.",saus sambal|jus jeruk|sirup|telur puyuh,48000,5.33
+raw/spk04/034.wav,spk04,34,tambah,"Catat kecap manis, kecap asin, garam, kunyit, dan jahe.",kecap manis|kecap asin|garam|kunyit|jahe,48000,5.82
+raw/spk04/035.wav,spk04,35,tambah,"Tambahin wortel, kentang, tomat, bayam, dan kangkung.",wortel|kentang|tomat|bayam|kangkung,48000,5.46
+raw/spk04/036.wav,spk04,36,tambah,"Beli beras lima kilo, minyak goreng dua liter, gula pasir sekilo, dan telur sepuluh butir.",beras|minyak goreng|gula pasir|telur,48000,7.09
+raw/spk04/037.wav,spk04,37,tambah,"Mau beli bayem, sawi, sama brokoli.",bayam|sawi|brokoli,48000,4.21
+raw/spk04/038.wav,spk04,38,tambah,"Catat buncis, kol, timun, dan telur puyuh.",buncis|kol|timun|telur puyuh,48000,4.66
+raw/spk04/039.wav,spk04,39,tambah,Tambah mie instan dua dus sama tepung terigu.,mie instan|tepung terigu,48000,4.46
+raw/spk04/040.wav,spk04,40,tambah,"Beli air mineral, susu kotak, dan jus jeruk.",air mineral|susu|jus jeruk,48000,4.2
+raw/spk04/041.wav,spk04,41,centang,Susu sudah diambil.,susu,48000,2.72
+raw/spk04/042.wav,spk04,42,centang,Udah dapat telor.,telur,48000,2.62
+raw/spk04/043.wav,spk04,43,centang,Bayam masuk keranjang.,bayam,48000,2.64
+raw/spk04/044.wav,spk04,44,centang,Ceklis roti.,roti,48000,2.56
+raw/spk04/045.wav,spk04,45,centang,Centang tomat.,tomat,48000,2.51
+raw/spk04/046.wav,spk04,46,centang,Sudah ambil wortel.,wortel,48000,2.78
+raw/spk04/047.wav,spk04,47,centang,Tempe udah.,tempe,48000,2.58
+raw/spk04/048.wav,spk04,48,centang,Tahu sudah dapat.,tahu,48000,2.67
+raw/spk04/049.wav,spk04,49,centang,Cabai sudah di troli.,cabai,48000,2.98
+raw/spk04/050.wav,spk04,50,centang,"Oke, kentang beres.",kentang,48000,2.72
+raw/spk04/051.wav,spk04,51,centang,Ceklis roti sama tomat.,roti|tomat,48000,3.26
+raw/spk04/052.wav,spk04,52,centang,Susu dan telur sudah diambil.,susu|telur,48000,3.32
+raw/spk04/053.wav,spk04,53,centang,Udah dapat bayam sama wortel.,bayam|wortel,48000,3.56
+raw/spk04/054.wav,spk04,54,centang,"Centang ayam, tahu, dan tempe.",ayam|tahu|tempe,48000,4.05
+raw/spk04/055.wav,spk04,55,centang,Bawang merah masuk keranjang.,bawang merah,48000,3.2
+raw/spk04/056.wav,spk04,56,centang,Minyak goreng sudah diambil.,minyak goreng,48000,3.09
+raw/spk04/057.wav,spk04,57,centang,Gula pasir udah dapat.,gula pasir,48000,3.04
+raw/spk04/058.wav,spk04,58,centang,Beras sudah di troli.,beras,48000,3.18
+raw/spk04/059.wav,spk04,59,centang,Mie instan masuk keranjang.,mie instan,48000,3.38
+raw/spk04/060.wav,spk04,60,centang,Kecap manis sudah diambil.,kecap manis,48000,3.38
+raw/spk04/061.wav,spk04,61,centang,"Eh, telur puyuh udah dapat.",telur puyuh,48000,3.26
+raw/spk04/062.wav,spk04,62,centang,"Oh iya, bawang putih sudah diambil.",bawang putih,48000,3.96
+raw/spk04/063.wav,spk04,63,centang,"Nah, kopi sama teh celup beres.",kopi|teh celup,48000,3.48
+raw/spk04/064.wav,spk04,64,centang,"Hmm, ceklis garam.",garam,48000,2.76
+raw/spk04/065.wav,spk04,65,centang,Pisang sudah masuk keranjang.,pisang,48000,3.06
+raw/spk04/066.wav,spk04,66,centang,Kangkung dua ikat udah dapat.,kangkung,48000,3.8
+raw/spk04/067.wav,spk04,67,centang,"Sudah ambil bawang bombay, jahe, dan tepung terigu.",bawang bombay|jahe|tepung terigu,48000,4.62
+raw/spk04/068.wav,spk04,68,centang,"Gula merah, santan, dan mentega udah semua.",gula merah|santan|mentega,48000,4.38
+raw/spk04/069.wav,spk04,69,centang,"Udang, ikan, dan daging sapi sudah di troli.",udang|ikan|daging sapi,48000,4.56
+raw/spk04/070.wav,spk04,70,centang,"Centang jeruk, apel, dan semangka.",jeruk|apel|semangka,48000,3.66
+raw/spk04/071.wav,spk04,71,hapus,Hapus sawi sama brokoli.,sawi|brokoli,48000,3.25
+raw/spk04/072.wav,spk04,72,hapus,"Nggak jadi beli buncis, kol, dan timun.",buncis|kol|timun,48000,4.28
+raw/spk04/073.wav,spk04,73,hapus,Batal beli kunyit sama kecap asin.,kunyit|kecap asin,48000,3.95
+raw/spk04/074.wav,spk04,74,hapus,Hapus tepung beras dari daftar.,tepung beras,48000,3.46
+raw/spk04/075.wav,spk04,75,hapus,Gak usah beli sirup sama saus sambal.,sirup|saus sambal,48000,4.06
+raw/spk04/076.wav,spk04,76,hapus,"Eh, hapus sabun cuci piring dan tisu.",sabun cuci piring|tisu,48000,4.2
+raw/spk04/077.wav,spk04,77,hapus,Batal air mineral sama jus jeruk.,air mineral|jus jeruk,48000,3.54
+raw/spk04/078.wav,spk04,78,hapus,"Hapus susu, bawang putih, dan telur.",susu|bawang putih|telur,48000,3.48
+raw/spk04/079.wav,spk04,79,hapus,"Nggak jadi beli ayam, tahu, dan bawang merah.",ayam|tahu|bawang merah,48000,4.14
+raw/spk04/080.wav,spk04,80,hapus,"Eh, batal beli cabai.",cabai,48000,3.42
+raw/spk05/001.wav,spk05,1,tambah,Tolong catat susu.,susu,48000,2.84
+raw/spk05/002.wav,spk05,2,tambah,Beli telur sama ikan.,telur|ikan,48000,3.95
+raw/spk05/003.wav,spk05,3,tambah,Catat bayam sama udang.,bayam|udang,48000,3.52
+raw/spk05/004.wav,spk05,4,tambah,Tambah roti sama sirup ke daftar belanja.,roti|sirup,48000,4.46
+raw/spk05/005.wav,spk05,5,tambah,Jangan lupa cabe sama tisu.,cabai|tisu,48000,2.58
+raw/spk05/006.wav,spk05,6,tambah,"Tolong catat susu, bayam, telur, dan roti.",susu|bayam|telur|roti,48000,5.31
+raw/spk05/007.wav,spk05,7,tambah,"Beli tomat, wortel, dan daging sapi.",tomat|wortel|daging sapi,48000,4.2
+raw/spk05/008.wav,spk05,8,tambah,"Tambahin tempe, tahu, dan kentang.",tempe|tahu|kentang,48000,3.86
+raw/spk05/009.wav,spk05,9,tambah,"Mau beli bawang merah, bawang putih, dan cabai.",bawang merah|bawang putih|cabai,48000,4.03
+raw/spk05/010.wav,spk05,10,tambah,"Catat ayam, kangkung, dan jeruk.",ayam|kangkung|jeruk,48000,2.92
+raw/spk05/011.wav,spk05,11,tambah,Besok beli beras sama minyak goreng.,beras|minyak goreng,48000,3.26
+raw/spk05/012.wav,spk05,12,tambah,Masukin gula pasir sama gula merah ke list.,gula pasir|gula merah,48000,3.09
+raw/spk05/013.wav,spk05,13,tambah,Jangan lupa kecap manis dan garam.,kecap manis|garam,48000,2.58
+raw/spk05/014.wav,spk05,14,tambah,Beli mie instan lima bungkus.,mie instan,48000,2.58
+raw/spk05/015.wav,spk05,15,tambah,Catat telur sekilo.,telur,48000,1.9
+raw/spk05/016.wav,spk05,16,tambah,Tambahin minyak goreng dua liter sama santan.,minyak goreng|santan,48000,4.03
+raw/spk05/017.wav,spk05,17,tambah,Beli bayam dua ikat dan tomat setengah kilo.,bayam|tomat,48000,3.18
+raw/spk05/018.wav,spk05,18,tambah,Jangan lupa bawang merah satu ons sama tepung beras.,bawang merah|tepung beras,48000,3.52
+raw/spk05/019.wav,spk05,19,tambah,Catat pisang satu sisir sama semangka.,pisang|semangka,48000,2.67
+raw/spk05/020.wav,spk05,20,tambah,Tambah susu tiga kotak sama apel.,susu|apel,48000,2.84
+raw/spk05/021.wav,spk05,21,tambah,"Eh, tolong catat teh celup dan bawang bombay.",teh celup|bawang bombay,48000,3.69
+raw/spk05/022.wav,spk05,22,tambah,"Oh iya, beli sabun cuci piring sama saus sambal.",sabun cuci piring|saus sambal,48000,4.29
+raw/spk05/023.wav,spk05,23,tambah,"Apa ya, tambahin tepung terigu sama mentega.",tepung terigu|mentega,48000,3.52
+raw/spk05/024.wav,spk05,24,tambah,"Hmm, catat santan, tepung beras, dan gula merah.",santan|tepung beras|gula merah,48000,4.12
+raw/spk05/025.wav,spk05,25,tambah,"Stok habis, perlu tisu, air mineral, dan kopi.",tisu|air mineral|kopi,48000,4.03
+raw/spk05/026.wav,spk05,26,tambah,"Beli daging sapi, udang, dan ikan.",daging sapi|udang|ikan,48000,3.09
+raw/spk05/027.wav,spk05,27,tambah,"Tambahin kopi, teh celup, gula pasir, dan susu.",kopi|teh celup|gula pasir|susu,48000,4.03
+raw/spk05/028.wav,spk05,28,tambah,"Catat jahe, kunyit, dan bawang bombay.",jahe|kunyit|bawang bombay,48000,2.67
+raw/spk05/029.wav,spk05,29,tambah,"Beli apel, pisang, jeruk, dan semangka.",apel|pisang|jeruk|semangka,48000,3.26
+raw/spk05/030.wav,spk05,30,tambah,"Daftar belanja hari ini susu, roti, mentega, telur, dan sabun cuci piring.",susu|roti|mentega|telur|sabun cuci piring,48000,5.57
+raw/spk05/031.wav,spk05,31,tambah,"Tolong catat sawi, brokoli, buncis, kol, dan timun.",sawi|brokoli|buncis|kol|timun,48000,4.46
+raw/spk05/032.wav,spk05,32,tambah,"Beli ayam, tahu, tempe, bawang putih, cabai, dan kecap asin.",ayam|tahu|tempe|bawang putih|cabai|kecap asin,48000,5.23
+raw/spk05/033.wav,spk05,33,tambah,"Jangan lupa saus sambal, jus jeruk, sirup, dan telur puyuh.",saus sambal|jus jeruk|sirup|telur puyuh,48000,4.8
+raw/spk05/034.wav,spk05,34,tambah,"Catat kecap manis, kecap asin, garam, kunyit, dan jahe.",kecap manis|kecap asin|garam|kunyit|jahe,48000,4.71
+raw/spk05/035.wav,spk05,35,tambah,"Tambahin wortel, kentang, tomat, bayam, dan kangkung.",wortel|kentang|tomat|bayam|kangkung,48000,3.52
+raw/spk05/036.wav,spk05,36,tambah,"Beli beras lima kilo, minyak goreng dua liter, gula pasir sekilo, dan telur sepuluh butir.",beras|minyak goreng|gula pasir|telur,48000,6.08
+raw/spk05/037.wav,spk05,37,tambah,"Mau beli bayem, sawi, sama brokoli.",bayam|sawi|brokoli,48000,3.18
+raw/spk05/038.wav,spk05,38,tambah,"Catat buncis, kol, timun, dan telur puyuh.",buncis|kol|timun|telur puyuh,48000,4.03
+raw/spk05/039.wav,spk05,39,tambah,Tambah mie instan dua dus sama tepung terigu.,mie instan|tepung terigu,48000,3.6
+raw/spk05/040.wav,spk05,40,tambah,"Beli air mineral, susu kotak, dan jus jeruk.",air mineral|susu|jus jeruk,48000,3.69
+raw/spk05/041.wav,spk05,41,centang,Susu sudah diambil.,susu,48000,1.98
+raw/spk05/042.wav,spk05,42,centang,Udah dapat telor.,telur,48000,2.32
+raw/spk05/043.wav,spk05,43,centang,Bayam masuk keranjang.,bayam,48000,2.15
+raw/spk05/044.wav,spk05,44,centang,Ceklis roti.,roti,48000,1.9
+raw/spk05/045.wav,spk05,45,centang,Centang tomat.,tomat,48000,2.49
+raw/spk05/046.wav,spk05,46,centang,Sudah ambil wortel.,wortel,48000,1.98
+raw/spk05/047.wav,spk05,47,centang,Tempe udah.,tempe,48000,1.98
+raw/spk05/048.wav,spk05,48,centang,Tahu sudah dapat.,tahu,48000,2.58
+raw/spk05/049.wav,spk05,49,centang,Cabai sudah di troli.,cabai,48000,1.9
+raw/spk05/050.wav,spk05,50,centang,"Oke, kentang beres.",kentang,48000,2.07
+raw/spk05/051.wav,spk05,51,centang,Ceklis roti sama tomat.,roti|tomat,48000,2.24
+raw/spk05/052.wav,spk05,52,centang,Susu dan telur sudah diambil.,susu|telur,48000,2.84
+raw/spk05/053.wav,spk05,53,centang,Udah dapat bayam sama wortel.,bayam|wortel,48000,2.67
+raw/spk05/054.wav,spk05,54,centang,"Centang ayam, tahu, dan tempe.",ayam|tahu|tempe,48000,3.26
+raw/spk05/055.wav,spk05,55,centang,Bawang merah masuk keranjang.,bawang merah,48000,2.41
+raw/spk05/056.wav,spk05,56,centang,Minyak goreng sudah diambil.,minyak goreng,48000,2.41
+raw/spk05/057.wav,spk05,57,centang,Gula pasir udah dapat.,gula pasir,48000,2.67
+raw/spk05/058.wav,spk05,58,centang,Beras sudah di troli.,beras,48000,2.07
+raw/spk05/059.wav,spk05,59,centang,Mie instan masuk keranjang.,mie instan,48000,2.32
+raw/spk05/060.wav,spk05,60,centang,Kecap manis sudah diambil.,kecap manis,48000,2.15
+raw/spk05/061.wav,spk05,61,centang,"Eh, telur puyuh udah dapat.",telur puyuh,48000,2.32
+raw/spk05/062.wav,spk05,62,centang,"Oh iya, bawang putih sudah diambil.",bawang putih,48000,2.75
+raw/spk05/063.wav,spk05,63,centang,"Nah, kopi sama teh celup beres.",kopi|teh celup,48000,3.01
+raw/spk05/064.wav,spk05,64,centang,"Hmm, ceklis garam.",garam,48000,2.67
+raw/spk05/065.wav,spk05,65,centang,Pisang sudah masuk keranjang.,pisang,48000,2.24
+raw/spk05/066.wav,spk05,66,centang,Kangkung dua ikat udah dapat.,kangkung,48000,2.32
+raw/spk05/067.wav,spk05,67,centang,"Sudah ambil bawang bombay, jahe, dan tepung terigu.",bawang bombay|jahe|tepung terigu,48000,4.03
+raw/spk05/068.wav,spk05,68,centang,"Gula merah, santan, dan mentega udah semua.",gula merah|santan|mentega,48000,3.43
+raw/spk05/069.wav,spk05,69,centang,"Udang, ikan, dan daging sapi sudah di troli.",udang|ikan|daging sapi,48000,3.95
+raw/spk05/070.wav,spk05,70,centang,"Centang jeruk, apel, dan semangka.",jeruk|apel|semangka,48000,2.75
+raw/spk05/071.wav,spk05,71,hapus,Hapus sawi sama brokoli.,sawi|brokoli,48000,2.24
+raw/spk05/072.wav,spk05,72,hapus,"Nggak jadi beli buncis, kol, dan timun.",buncis|kol|timun,48000,2.67
+raw/spk05/073.wav,spk05,73,hapus,Batal beli kunyit sama kecap asin.,kunyit|kecap asin,48000,2.07
+raw/spk05/074.wav,spk05,74,hapus,Hapus tepung beras dari daftar.,tepung beras,48000,2.24
+raw/spk05/075.wav,spk05,75,hapus,Gak usah beli sirup sama saus sambal.,sirup|saus sambal,48000,2.41
+raw/spk05/076.wav,spk05,76,hapus,"Eh, hapus sabun cuci piring dan tisu.",sabun cuci piring|tisu,48000,3.26
+raw/spk05/077.wav,spk05,77,hapus,Batal air mineral sama jus jeruk.,air mineral|jus jeruk,48000,2.24
+raw/spk05/078.wav,spk05,78,hapus,"Hapus susu, bawang putih, dan telur.",susu|bawang putih|telur,48000,3.01
+raw/spk05/079.wav,spk05,79,hapus,"Nggak jadi beli ayam, tahu, dan bawang merah.",ayam|tahu|bawang merah,48000,2.84
+raw/spk05/080.wav,spk05,80,hapus,"Eh, batal beli cabai.",cabai,48000,2.49

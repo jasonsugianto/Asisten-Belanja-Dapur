@@ -1,0 +1,83 @@
+Naskah,,,
+,,,
+No,Kalimat,Jenis Perintah,Barang di kalimat
+1,Tolong catat susu.,tambah,susu
+2,Beli telur sama ikan.,tambah,"telur, ikan"
+3,Catat bayam sama udang.,tambah,"bayam, udang"
+4,Tambah roti sama sirup ke daftar belanja.,tambah,"roti, sirup"
+5,Jangan lupa cabe sama tisu.,tambah,"cabai, tisu"
+6,"Tolong catat susu, bayam, telur, dan roti.",tambah,"susu, bayam, telur, roti"
+7,"Beli tomat, wortel, dan daging sapi.",tambah,"tomat, wortel, daging sapi"
+8,"Tambahin tempe, tahu, dan kentang.",tambah,"tempe, tahu, kentang"
+9,"Mau beli bawang merah, bawang putih, dan cabai.",tambah,"bawang merah, bawang putih, cabai"
+10,"Catat ayam, kangkung, dan jeruk.",tambah,"ayam, kangkung, jeruk"
+11,Besok beli beras sama minyak goreng.,tambah,"beras, minyak goreng"
+12,Masukin gula pasir sama gula merah ke list.,tambah,"gula pasir, gula merah"
+13,Jangan lupa kecap manis dan garam.,tambah,"kecap manis, garam"
+14,Beli mie instan lima bungkus.,tambah,mie instan
+15,Catat telur sekilo.,tambah,telur
+16,Tambahin minyak goreng dua liter sama santan.,tambah,"minyak goreng, santan"
+17,Beli bayam dua ikat dan tomat setengah kilo.,tambah,"bayam, tomat"
+18,Jangan lupa bawang merah satu ons sama tepung beras.,tambah,"bawang merah, tepung beras"
+19,Catat pisang satu sisir sama semangka.,tambah,"pisang, semangka"
+20,Tambah susu tiga kotak sama apel.,tambah,"susu, apel"
+21,"Eh, tolong catat teh celup dan bawang bombay.",tambah,"teh celup, bawang bombay"
+22,"Oh iya, beli sabun cuci piring sama saus sambal.",tambah,"sabun cuci piring, saus sambal"
+23,"Apa ya, tambahin tepung terigu sama mentega.",tambah,"tepung terigu, mentega"
+24,"Hmm, catat santan, tepung beras, dan gula merah.",tambah,"santan, tepung beras, gula merah"
+25,"Stok habis, perlu tisu, air mineral, dan kopi.",tambah,"tisu, air mineral, kopi"
+26,"Beli daging sapi, udang, dan ikan.",tambah,"daging sapi, udang, ikan"
+27,"Tambahin kopi, teh celup, gula pasir, dan susu.",tambah,"kopi, teh celup, gula pasir, susu"
+28,"Catat jahe, kunyit, dan bawang bombay.",tambah,"jahe, kunyit, bawang bombay"
+29,"Beli apel, pisang, jeruk, dan semangka.",tambah,"apel, pisang, jeruk, semangka"
+30,"Daftar belanja hari ini susu, roti, mentega, telur, dan sabun cuci piring.",tambah,"susu, roti, mentega, telur, sabun cuci piring"
+31,"Tolong catat sawi, brokoli, buncis, kol, dan timun.",tambah,"sawi, brokoli, buncis, kol, timun"
+32,"Beli ayam, tahu, tempe, bawang putih, cabai, dan kecap asin.",tambah,"ayam, tahu, tempe, bawang putih, cabai, kecap asin"
+33,"Jangan lupa saus sambal, jus jeruk, sirup, dan telur puyuh.",tambah,"saus sambal, jus jeruk, sirup, telur puyuh"
+34,"Catat kecap manis, kecap asin, garam, kunyit, dan jahe.",tambah,"kecap manis, kecap asin, garam, kunyit, jahe"
+35,"Tambahin wortel, kentang, tomat, bayam, dan kangkung.",tambah,"wortel, kentang, tomat, bayam, kangkung"
+36,"Beli beras lima kilo, minyak goreng dua liter, gula pasir sekilo, dan telur sepuluh butir.",tambah,"beras, minyak goreng, gula pasir, telur"
+37,"Mau beli bayem, sawi, sama brokoli.",tambah,"bayam, sawi, brokoli"
+38,"Catat buncis, kol, timun, dan telur puyuh.",tambah,"buncis, kol, timun, telur puyuh"
+39,Tambah mie instan dua dus sama tepung terigu.,tambah,"mie instan, tepung terigu"
+40,"Beli air mineral, susu kotak, dan jus jeruk.",tambah,"air mineral, susu, jus jeruk"
+41,Susu sudah diambil.,centang,susu
+42,Udah dapat telor.,centang,telur
+43,Bayam masuk keranjang.,centang,bayam
+44,Ceklis roti.,centang,roti
+45,Centang tomat.,centang,tomat
+46,Sudah ambil wortel.,centang,wortel
+47,Tempe udah.,centang,tempe
+48,Tahu sudah dapat.,centang,tahu
+49,Cabai sudah di troli.,centang,cabai
+50,"Oke, kentang beres.",centang,kentang
+51,Ceklis roti sama tomat.,centang,"roti, tomat"
+52,Susu dan telur sudah diambil.,centang,"susu, telur"
+53,Udah dapat bayam sama wortel.,centang,"bayam, wortel"
+54,"Centang ayam, tahu, dan tempe.",centang,"ayam, tahu, tempe"
+55,Bawang merah masuk keranjang.,centang,bawang merah
+56,Minyak goreng sudah diambil.,centang,minyak goreng
+57,Gula pasir udah dapat.,centang,gula pasir
+58,Beras sudah di troli.,centang,beras
+59,Mie instan masuk keranjang.,centang,mie instan
+60,Kecap manis sudah diambil.,centang,kecap manis
+61,"Eh, telur puyuh udah dapat.",centang,telur puyuh
+62,"Oh iya, bawang putih sudah diambil.",centang,bawang putih
+63,"Nah, kopi sama teh celup beres.",centang,"kopi, teh celup"
+64,"Hmm, ceklis garam.",centang,garam
+65,Pisang sudah masuk keranjang.,centang,pisang
+66,Kangkung dua ikat udah dapat.,centang,kangkung
+67,"Sudah ambil bawang bombay, jahe, dan tepung terigu.",centang,"bawang bombay, jahe, tepung terigu"
+68,"Gula merah, santan, dan mentega udah semua.",centang,"gula merah, santan, mentega"
+69,"Udang, ikan, dan daging sapi sudah di troli.",centang,"udang, ikan, daging sapi"
+70,"Centang jeruk, apel, dan semangka.",centang,"jeruk, apel, semangka"
+71,Hapus sawi sama brokoli.,hapus,"sawi, brokoli"
+72,"Nggak jadi beli buncis, kol, dan timun.",hapus,"buncis, kol, timun"
+73,Batal beli kunyit sama kecap asin.,hapus,"kunyit, kecap asin"
+74,Hapus tepung beras dari daftar.,hapus,tepung beras
+75,Gak usah beli sirup sama saus sambal.,hapus,"sirup, saus sambal"
+76,"Eh, hapus sabun cuci piring dan tisu.",hapus,"sabun cuci piring, tisu"
+77,Batal air mineral sama jus jeruk.,hapus,"air mineral, jus jeruk"
+78,"Hapus susu, bawang putih, dan telur.",hapus,"susu, bawang putih, telur"
+79,"Nggak jadi beli ayam, tahu, dan bawang merah.",hapus,"ayam, tahu, bawang merah"
+80,"Eh, batal beli cabai.",hapus,cabai
