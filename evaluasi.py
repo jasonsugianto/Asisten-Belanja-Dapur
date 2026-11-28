@@ -6,11 +6,17 @@ from hasil_io import read_rows
 from metrics import score, latency_stats, error_rate
 from nlu import normalize
 
-args, spk_filter = sys.argv[1:], None
+args, spk_filter, uji80 = sys.argv[1:], None, False
+if "--uji80" in args:                                # hanya 80 rekaman uji dari splits.json
+    args.remove("--uji80"); uji80 = True
 if "--spk" in args:                                  # contoh: --spk spk04 spk05
     i = args.index("--spk"); spk_filter = args[i + 1:]; args = args[:i]
 files = args or sorted(glob.glob("hasil/*.csv"))
 files = [f for f in files if "ringkasan" not in f]
+UJI80 = set()
+if uji80:
+    from splits import load_folds
+    UJI80 = {(s, int(i)) for f in load_folds() for s, i in f["test"]}
 sets = lambda s: set(x for x in s.split("|") if x)
 
 
@@ -24,6 +30,8 @@ for path in files:
     rows = read_rows(path)
     if spk_filter:
         rows = [r for r in rows if r["spk"] in spk_filter]
+    if uji80:
+        rows = [r for r in rows if (r["spk"], int(r["id"])) in UJI80]
     if not rows:
         continue
     name = rows[0]["model"]
