@@ -21,6 +21,7 @@ ap.add_argument("--audio", default="processed")
 ap.add_argument("--speakers", nargs="*")
 ap.add_argument("--limit", type=int)
 ap.add_argument("--out", default=None)
+ap.add_argument("--nama", default=None, help="isi kolom model (bawaan M1_zipformer[_int8])")
 a = ap.parse_args()
 out = a.out or f"hasil/m1{'_int8' if a.int8 else ''}.csv"
 
@@ -81,7 +82,7 @@ for i, dd in enumerate(data, 1):
     assert sr == 16000, f"{dd['path']} bukan 16 kHz; jalankan konversi.py"
     phs, ms, _ = run_stream(y)
     p = parse_phonemes(phs)
-    w.writerow({"model": f"M1_zipformer{'_int8' if a.int8 else ''}", "spk": dd["spk"], "id": dd["id"],
+    w.writerow({"model": a.nama or f"M1_zipformer{'_int8' if a.int8 else ''}", "spk": dd["spk"], "id": dd["id"],
                 "jenis": dd["jenis"], "ref": dd["transcript"], "gold_items": "|".join(dd["items"]),
                 "hyp": "", "pred_intent": p["intent"], "pred_items": "|".join(p["items"]),
                 "latency_ms": round(ms, 1),

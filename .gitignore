@@ -16,3 +16,7 @@ __pycache__/
 dataset_v1.zip
 models/m2/*.pt
 belanja_colab.zip
+models/m1_pytorch/
+models/m1_ft/
+exp_m1/
+exp_m1_uji/

@@ -4,7 +4,8 @@ from pathlib import Path
 
 B = Path(__file__).resolve().parent
 kode = ["data.py", "metrics.py", "hasil_io.py", "nlu.py", "augment.py", "splits.py", "latih_m2.py",
-        "script.csv", "splits.json"]
+        "latih_m1.py", "ekspor_m1.py", "unduh_m1_pytorch.py", "cek_fonem.py", "nlu_phoneme.py",
+        "models/zipformer_id/tokens.txt", "script.csv", "splits.json"]
 ada = [k for k in kode if (B / k).exists()]
 kurang = [k for k in kode if k not in ada]
 if kurang:
