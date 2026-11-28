@@ -3,7 +3,7 @@ dilatih lanjut dengan data Anda. Pembagian: splits.json (sama dengan M2/M3: uji 
 Jalankan di GPU (Colab). Langkah lengkap: PANDUAN_FINETUNE_M1.md
 
   python latih_m1.py --resep $RESEP --cek          <- 1. cek arsitektur cocok dengan checkpoint (tanpa melatih)
-  python latih_m1.py --resep $RESEP --uji-cepat    <- 2. jalur kode lengkap, 2 epoch, data kecil
+  python latih_m1.py --resep $RESEP --uji-cepat    <- 2. jalur kode lengkap, 5 epoch, data kecil
   python latih_m1.py --resep $RESEP                <- 3. 5 putaran penuh
 
 $RESEP = <icefall>/egs/librispeech/ASR/pruned_transducer_stateless7_streaming
@@ -204,7 +204,7 @@ if a.cek:
 # ---- putaran ------------------------------------------------------------------------------------
 folds = load_folds()
 sel = a.folds if a.folds is not None else ([0] if a.uji_cepat else range(len(folds)))
-epochs = 2 if a.uji_cepat else a.epochs
+epochs = 5 if a.uji_cepat else a.epochs
 root = Path(a.exp_dir + ("_uji" if a.uji_cepat else ""))
 root.mkdir(parents=True, exist_ok=True)
 (root / "tokens_ekspor.txt").write_text(                      # export-onnx.py mencari simbol <blk>
@@ -224,23 +224,27 @@ for fi in sel:
     except TypeError:
         opt = ScaledAdam(model.parameters(), lr=a.lr, clipping_scale=2.0)
     sch = Eden(opt, lr_batches=100000, lr_epochs=100)          # praktis konstan setelah warm-up singkat
-    scaler = torch.cuda.amp.GradScaler(enabled=amp)
+    # init_scale=1.0 seperti train.py icefall; bawaan 65536 membuat langkah awal dilewati (overflow fp16)
+    scaler = torch.amp.GradScaler("cuda", enabled=amp, init_scale=1.0)
     rng, step = random.Random(fi), 0
     best, best_ep, best_v, t0 = None, 0, float("inf"), time.time()
     for ep in range(1, epochs + 1):
         sch.step_epoch(ep - 1)
-        model.train(); order = tr[:]; rng.shuffle(order); tot = fr = 0.0
+        model.train(); order = tr[:]; rng.shuffle(order); tot = fr = 0.0; lewat = 0
         for i in range(0, len(order), a.batch):
             X, lens, Y = batch_of(order[i:i + a.batch], True, rng)
             loss = loss_of(model, X, lens, Y)
-            opt.zero_grad(); scaler.scale(loss).backward(); scaler.step(opt); scaler.update()
+            opt.zero_grad(); scaler.scale(loss).backward(); sc = scaler.get_scale()
+            scaler.step(opt); scaler.update()
+            lewat += amp and scaler.get_scale() < sc               # skala turun = langkah dilewati (inf/nan)
             step += 1; sch.step_batch(step)
             tot += float(loss.detach()); fr += float((lens // 4).sum())
         v = val_loss(model, va); mark = ""
         if v < best_v:
             best_v, best_ep, mark = v, ep, "  <- terbaik"
             best = {k: t.detach().cpu().clone() for k, t in model.state_dict().items()}
-        print(f"  epoch {ep:2d}: loss latih {tot / max(fr, 1):.3f}  val {v:.3f}  ({time.time() - t0:.0f} dtk){mark}")
+        print(f"  epoch {ep:2d}: loss latih {tot / max(fr, 1):.3f}  val {v:.3f}  ({time.time() - t0:.0f} dtk)"
+              f"{f'  [{lewat} langkah dilewati]' if lewat else ''}{mark}")
     out = root / f"fold{fi}"; out.mkdir(exist_ok=True)
     torch.save({"model": best}, out / f"epoch-{best_ep}.pt")
     info = {"fold": fi, "epoch": best_ep, "val_loss": best_v, "val_loss_tanpa_latih": v0,
