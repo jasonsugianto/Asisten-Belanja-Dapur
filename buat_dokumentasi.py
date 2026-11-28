@@ -1,7 +1,8 @@
 """Buat dokumentasi hasil 4 model dari berkas hasil yang sudah ada -> dokumentasi_hasil.md + perbandingan_80.csv
   python buat_dokumentasi.py
-  python buat_dokumentasi.py --m1 hasil/m1_int8_kw30.csv --contoh 10
-Semua model dibandingkan pada 80 rekaman uji (pembicara dan kalimat yang sama)."""
+  python buat_dokumentasi.py --contoh 10
+M1 ditampilkan dua kali: tanpa fine-tune (--m1z, pembanding) dan setelah fine-tune (--m1).
+Model yang berkasnya tidak ada dilewati. Semua model dibandingkan pada 80 rekaman uji yang sama."""
 import argparse, collections, csv, datetime, random
 from hasil_io import read_rows
 from metrics import score, latency_stats
@@ -9,17 +10,19 @@ from splits import load_folds
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--m0", default="hasil/m0_tiny_prompt_nlu2.csv")
-ap.add_argument("--m1", default="hasil/m1_int8_kw30.csv")
+ap.add_argument("--m1z", default="hasil/m1_int8.csv", help="M1 tanpa fine-tune, NLU bawaan")
+ap.add_argument("--m1", default="hasil/m1_finetune_full.csv", help="M1 setelah fine-tune (latih_m1.py)")
 ap.add_argument("--m2", default="hasil/m2_finetune_full.csv")
 ap.add_argument("--m3", default="hasil/m3_bcresnet.csv")
 ap.add_argument("--contoh", type=int, default=8)
 ap.add_argument("--keluar", default="dokumentasi_hasil.md")
 a = ap.parse_args()
 
-NAMA = {"M0": "M0 Whisper tiny (+prompt)", "M1": "M1 Zipformer streaming (int8)",
+NAMA = {"M0": "M0 Whisper tiny (+prompt)", "M1z": "M1 Zipformer streaming tanpa fine-tune (int8)",
+        "M1": "M1 Zipformer streaming fine-tune (int8)",
         "M2": "M2 wav2vec2 XLS-R Indonesia (fine-tune)", "M3": "M3 BC-ResNet (kosakata tertutup)"}
-RAW = {"M0": "hyp", "M1": "hyp_ph", "M2": "hyp", "M3": "hyp"}          # kolom keluaran mentah
-JENIS_RAW = {"M0": "teks Whisper", "M1": "urutan fonem", "M2": "teks CTC", "M3": "kata kunci terdeteksi (probabilitas)"}
+RAW = {"M0": "hyp", "M1z": "hyp_ph", "M1": "hyp_ph", "M2": "hyp", "M3": "hyp"}          # kolom keluaran mentah
+JENIS_RAW = {"M0": "teks Whisper", "M1z": "urutan fonem", "M1": "urutan fonem", "M2": "teks CTC", "M3": "kata kunci terdeteksi (probabilitas)"}
 uji = {(s, int(i)) for f in load_folds() for s, i in f["test"]}
 sets = lambda s: set(x for x in s.split("|") if x)
 
@@ -49,7 +52,12 @@ for m in ada:
     rows = [data[m][k] for k in kunci]; s = score([prep(r) for r in rows]); lt = latency_stats([float(r["latency_ms"]) for r in rows])
     L.append(f"| {NAMA[m]} | {s['item_F1']:.3f} | {s['item_P']:.3f} | {s['item_R']:.3f} | {s['intent_acc']:.1%} | {s['kalimat_benar']:.1%} | {lt['p50']:.0f} / {lt['p95']:.0f} |")
 L.append("\nCatatan latensi: ditulis apa adanya dari berkas hasil (M2 diukur di CPU Colab; model lain di laptop). "
+         "M1 dan M3 streaming: dihitung sejak potongan audio terakhir diterima; M0 dan M2: waktu memproses seluruh kalimat. "
          "Lihat bagian keterbatasan.\n")
+if "M1z" in ada and "M1" in ada:
+    L.append("Catatan M1: kedua baris memakai model Zipformer fonem yang sama dan NLU fonem bawaan. Baris fine-tune dilatih "
+             "dengan pembagian `splits.json` (5 putaran, sama dengan M2/M3), sehingga pembicara dan kalimat uji tidak "
+             "dilihat saat pelatihan.\n")
 
 L.append("## 2. Akurasi per jenis perintah (kalimat benar)\n")
 L.append("| Model | tambah | centang | hapus |\n|---|---|---|---|")
@@ -96,6 +104,7 @@ L.append("\n## 6. Keterbatasan yang perlu disebut\n")
 L.append("- Set uji hanya 80 rekaman; selisih kecil antar model tidak pasti.\n"
          "- Naskah (pola kalimat dan 50 barang) sama untuk data latih dan uji; hasil berlaku untuk domain tertutup ini.\n"
          "- Latensi tidak diukur pada satu mesin yang sama untuk semua model; latensi M2 di Colab jauh di atas laptop.\n"
+         "- Latensi belum termasuk waktu NLU (kecuali M3) dan deteksi akhir ucapan (VAD/endpoint) yang dibutuhkan aplikasi nyata.\n"
          "- Pencocokan teks/fonem ke barang dirancang setelah melihat kesalahan pada data yang sama (M0 dan M1 sedikit optimistis).\n"
          "- Belum diuji: noise, perangkat target (HP), barang di luar 50 item.")
 open(a.keluar, "w", encoding="utf-8").write("\n".join(L) + "\n")
