@@ -23,6 +23,16 @@ if "--tokens" not in bantuan.stdout:
     raise SystemExit("export-onnx.py versi ini tidak punya --tokens (masih --bpe-model). Pakai icefall terbaru.\n"
                      + bantuan.stderr[-1500:])
 
+# export-onnx.py mencari simbol <blk> (id 0) dan <unk>; tokens.txt bookbot memakai <eps> dan <UNK>.
+# Hanya nama simbol yang diganti; id tetap sama, jadi tokens.txt asli tetap dipakai sherpa-onnx.
+GANTI = {"<eps>": "<blk>", "<UNK>": "<unk>"}
+tok_ekspor = exp / "tokens_ekspor.txt"
+baris = [l.split() for l in (base / a.tokens).read_text(encoding="utf-8").splitlines() if l.strip()]
+tok_ekspor.write_text("".join(f"{GANTI.get(s, s)} {i}\n" for s, i in baris), encoding="utf-8")
+nama = {s for s, _ in (l.split() for l in tok_ekspor.read_text(encoding="utf-8").splitlines())}
+if not {"<blk>", "<unk>"} <= nama:
+    raise SystemExit(f"{tok_ekspor} tidak memuat <blk> dan <unk>; periksa {a.tokens}")
+
 dirs = sorted(exp.glob("fold*"))
 if a.folds is not None:
     dirs = [d for d in dirs if int(d.name[4:]) in a.folds]
@@ -32,7 +42,7 @@ if not dirs:
 for d in dirs:
     info = json.loads((d / "info.json").read_text(encoding="utf-8"))
     ep = info["epoch"]
-    cmd = [sys.executable, "export-onnx.py", "--exp-dir", str(d), "--tokens", str(exp / "tokens_ekspor.txt"),
+    cmd = [sys.executable, "export-onnx.py", "--exp-dir", str(d), "--tokens", str(tok_ekspor),
            "--epoch", str(ep), "--avg", "1", "--use-averaged-model", "0",
            "--decode-chunk-len", str(a.decode_chunk_len)] + info.get("model_args", "").split()
     print(f"\n=== {d.name} (epoch {ep}, uji {info['uji_pembicara']}) ===\n", " ".join(cmd))

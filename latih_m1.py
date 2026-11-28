@@ -207,8 +207,9 @@ sel = a.folds if a.folds is not None else ([0] if a.uji_cepat else range(len(fol
 epochs = 5 if a.uji_cepat else a.epochs
 root = Path(a.exp_dir + ("_uji" if a.uji_cepat else ""))
 root.mkdir(parents=True, exist_ok=True)
-(root / "tokens_ekspor.txt").write_text(                      # export-onnx.py mencari simbol <blk>
-    "".join(f"{'<blk>' if i == 0 else s} {i}\n" for s, i in sorted(TOK.items(), key=lambda x: x[1])), encoding="utf-8")
+(root / "tokens_ekspor.txt").write_text(                      # export-onnx.py mencari <blk> dan <unk>
+    "".join(f"{ {'<eps>': '<blk>', '<UNK>': '<unk>'}.get(s, s)} {i}\n" for s, i in sorted(TOK.items(), key=lambda x: x[1])),
+    encoding="utf-8")
 ringkas = []
 
 for fi in sel:
