@@ -54,7 +54,7 @@ from augment import add_noise, speed_perturb
 random.seed(0); np.random.seed(0); torch.manual_seed(0)
 dev = "cuda" if torch.cuda.is_available() else "cpu"
 amp = bool(a.fp16) and dev == "cuda"
-print("torch", torch.__version__, "| k2", getattr(k2, "__version__", "?"), "| perangkat:", dev)
+print("torch", torch.__version__, "| k2 terpasang | perangkat:", dev)
 if dev == "cpu" and not (a.cek or a.uji_cepat or a.izinkan_cpu):
     raise SystemExit("GPU tidak terdeteksi. Sambungkan runtime ke GPU (paksa CPU: --izinkan-cpu).")
 
@@ -157,7 +157,9 @@ if vocab != n_tok:
 
 
 def build_model():
-    p = argparse.ArgumentParser(); R.add_model_arguments(p)
+    # parser lengkap resep (bukan hanya add_model_arguments): context_size dll. didefinisikan di get_parser()
+    p = R.get_parser() if hasattr(R, "get_parser") else argparse.ArgumentParser()
+    if not hasattr(R, "get_parser"): R.add_model_arguments(p)
     params = R.get_params(); params.update(vars(p.parse_args(a.model_args.split())))
     params.vocab_size, params.blank_id = vocab, 0
     model = R.get_transducer_model(params)
