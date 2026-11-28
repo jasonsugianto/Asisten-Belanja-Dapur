@@ -1,6 +1,6 @@
 # Dokumentasi Hasil Uji Empat Model
 
-Dibuat otomatis 2026-11-28 15:05. Semua model dievaluasi pada **80 rekaman uji yang sama** (pembicara dan kalimat yang belum dilihat model yang dilatih).
+Dibuat otomatis 2026-11-28 15:20. Semua model dievaluasi pada **80 rekaman uji yang sama** (pembicara dan kalimat yang belum dilihat model yang dilatih).
 
 ## 1. Ringkasan metrik
 
@@ -9,7 +9,7 @@ Dibuat otomatis 2026-11-28 15:05. Semua model dievaluasi pada **80 rekaman uji y
 | M0 Whisper tiny (+prompt) | 0.855 | 0.934 | 0.789 | 73.8% | 45.0% | 356 / 388 |
 | M1 Zipformer streaming tanpa fine-tune (int8) | 0.808 | 0.955 | 0.700 | 72.5% | 37.5% | 30 / 35 |
 | M1 Zipformer streaming fine-tune (int8) | 0.966 | 0.994 | 0.939 | 98.8% | 86.2% | 31 / 38 |
-| M2 wav2vec2 XLS-R Indonesia (fine-tune) | 0.986 | 0.994 | 0.978 | 98.8% | 93.8% | 1778 / 2807 |
+| M2 wav2vec2 XLS-R Indonesia (fine-tune) | 0.986 | 0.994 | 0.978 | 98.8% | 93.8% | 1761 / 3113 |
 | M3 BC-ResNet (kosakata tertutup) | 0.241 | 0.194 | 0.317 | 47.5% | 0.0% | 9 / 12 |
 
 Catatan latensi: ditulis apa adanya dari berkas hasil (M2 diukur di CPU Colab; model lain di laptop). M1 dan M3 streaming: dihitung sejak potongan audio terakhir diterima; M0 dan M2: waktu memproses seluruh kalimat. Lihat bagian keterbatasan.
@@ -31,7 +31,7 @@ Catatan M1: kedua baris memakai model Zipformer fonem yang sama dan NLU fonem ba
 - **M0 Whisper tiny (+prompt)**: telur (5), tisu (3), wortel (3), sawi (2), sirup (2), tepung terigu (2)
 - **M1 Zipformer streaming tanpa fine-tune (int8)**: wortel (4), minyak goreng (3), jus jeruk (3), teh celup (3), apel (3), air mineral (3)
 - **M1 Zipformer streaming fine-tune (int8)**: tahu (1), jahe (1), cabai (1), apel (1), air mineral (1), mie instan (1)
-- **M2 wav2vec2 XLS-R Indonesia (fine-tune)**: tepung beras (1), tahu (1), mie instan (1), brokoli (1)
+- **M2 wav2vec2 XLS-R Indonesia (fine-tune)**: tepung beras (1), mie instan (1), teh celup (1), brokoli (1)
 - **M3 BC-ResNet (kosakata tertutup)**: cabai (5), susu (5), bayam (5), bawang putih (4), telur (4), jeruk (3)
 
 ## 4. Contoh keluaran per model
@@ -113,7 +113,7 @@ Setiap contoh menampilkan **keluaran mentah model**, lalu **hasil setelah pencoc
 | M0 | `kecap manis, sudah diambil` | centang | kecap manis | ✓ |
 | M1z | `tʃ a p \| m a n i \| s u d a h \| d i a m b i l` | none | - | ✗ |
 | M1 | `e tʃ a p \| m a n i s \| s u d a h \| d i ʔ a m b i l` | centang | kecap manis | ✓ |
-| M2 | `kecap panis sudah diambil` | centang | kecap manis | ✓ |
+| M2 | `kecap manis sudah diambil` | centang | kecap manis | ✓ |
 | M3 | `centang(0.87)` | centang | - | ✗ |
 
 ### spk01 kalimat 67 (centang)
